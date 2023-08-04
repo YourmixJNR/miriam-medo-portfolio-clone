@@ -1,1 +1,86 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600&display=swap");
+
+:root {
+    --BG-Cobalt: #0a1323;
+    --Steel-blue: #c1cbf3eb;
+    --Aquamarine-light: #c1cbf3;
+}
+
+/* Base style */
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+}
+
+body {
+	width: 100vw;
+    overflow-x: hidden;
+    color: var(--Aquamarine-light);
+    background: var(--BG-Cobalt);
+}
+
+main {
+    position: relative;
+    width: 1350px;
+    margin: auto;
+}
+
+/* Reuseable components */
+
+
+/* Header starts */
+
+header {
+    padding: 2em 4em;
+}
+
+header .header-section {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header img {
+    width: 80px;
+}
+
+header .header-section .navbar {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+header .header-section nav a {
+    margin: 0 1.5em;
+    color: var(--Aquamarine-light);
+    text-decoration: none;
+}
+
+header .header-section .navbar a .color-no {
+    margin-right: 0.3em;
+    font-weight: 800;
+    background-clip: text;
+    background-image: linear-gradient(90deg,orange,green,#0593ff,violet);
+    color: transparent;
+}
+
+header .header-section .navbar .resume-btn {
+    position: relative;
+    min-width: 110px;
+    height: 42px;
+    font-size: 14px;
+    font-weight: 600;
+    background: transparent;
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90deg,orange,green,#0593ff,violet);
+    /* transition: all .5s ease-in-out; */
+    color: var(--Aquamarine-light);
+}
