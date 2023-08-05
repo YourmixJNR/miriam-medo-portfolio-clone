@@ -1,0 +1,27 @@
+@media(max-width:695px){ 
+
+    header .header-section .navbar a .color-no { 
+        display: flex;
+    }
+
+}
+
+@media(max-width:600px){
+    
+    header {
+        padding: 1em;
+    }
+
+    header .header-section {
+        width: 95.1%;
+    }
+
+    header img {
+        width: 60px;
+    }
+
+    header .header-section .navbar a { 
+        display: none;
+    }
+
+}
