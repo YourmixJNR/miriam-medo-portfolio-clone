@@ -115,4 +115,40 @@
         margin: 1px 0;
     }
 
+    .workplace-container {
+        width: 100%;
+    }
+
+    .tab-container .tab-box {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .tab-container .tab-heading {
+        border-bottom: 1px solid;
+        border-left: 0 solid;
+        display: flex;
+        flex-direction: row;
+        height: fit-content;
+        margin-bottom: 2em;
+    }
+
+    .tab-container .tab-heading .tab-head{
+        background-color: transparent;
+        border: none;
+        color: var(--color-text-dark);
+        cursor: pointer;
+        font-size: 14px;
+        padding: 1.5em 1em;
+    }
+
+    .tab-container .tab-heading .tab-head.cus-active {
+        border-bottom: 1px solid;
+        border-left: 0 solid !important;
+    }
+
+    .tab-container .tab-contents {
+        margin-left: 0;
+    }
+
 }

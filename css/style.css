@@ -214,6 +214,71 @@ header .header-section nav a {
     font-weight: 500;
 }
 
+/* Workplace starts */
+
+.workplace-container {
+    margin: auto;
+    width: 70%;
+}
+
+.tab-container .tab-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.tab-container .tab-heading {
+    border-left: 1px solid;
+    border-left-color: currentcolor;
+    border-color: rgba(90,90,90,.726);
+    height: 230px;
+    margin-bottom: 1em;
+    position: relative;
+    width: -webkit-max-content;
+    width: max-content;
+    z-index: 3;
+}
+
+.tab-container .tab-heading .tab-head {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 1.5em 1em;
+}
+
+.tab-container .tab-heading .tab-head.cus-active {
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90deg,orange,green,#0593ff,violet);
+    border-left: 2px solid !important;
+    border-width: 1px;
+    border-left-width: 1px;
+    color: var(--color-secondary);
+    font-weight: 600;
+}
+
+.tab-container .tab-contents {
+    margin-left: 2em;
+}
+
+.tab-container .tab-contents h3 {
+    margin: .6em 0;
+}
+
+.tab-container .tab-contents p {
+    font-size: 13px;
+}
+
+.tab-contents .cont-list ul {
+    margin: 14px 0;
+    padding-left: 40px;
+    font-size: 14px;
+}
+
+.tab-contents .cont-list li {
+    line-height: 1.8;
+    margin: 1em 0;
+}
+
 /* Project starts */
 
 .project-section {
