@@ -111,19 +111,11 @@ header .header-section nav a {
     text-decoration: none;
 }
 
-header .header-section
-
 /* Hero starts */
 
-.hero-section {
-    position: relative;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    min-height: 100vh;
-}
-
 .hero-box {
+    min-height: 80vh;
+    margin-top: 5em;
     margin-left: 5em;
 }
 
@@ -292,11 +284,20 @@ header .header-section
 /* Contact starts */
 
 .contact-container {
-    /* min-height: 37.5vh; */
+    min-height: 37.5vh;
 }
 
 .contact-txt h1 {
     font-size: 4rem;
     margin: 1px 0;
+}
+
+.contact-handles ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    list-style: none; /* Remove default bullets */
+    padding: 0; /* Remove default padding */
 }
 
