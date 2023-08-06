@@ -301,7 +301,7 @@ header .header-section nav a {
     box-shadow: 3px 3px 5px 2px #000;
     margin: 1em;
     max-width: 350px;
-    min-height: 235px;
+    min-height: 300px;
     min-width: 215px;
     padding: 1.5em;
 }
@@ -370,4 +370,38 @@ header .header-section nav a {
 .contact-handles ul li a img  {
     width: 20px;
     height: 20px;
+}
+
+/* Side section */
+
+.contact-details {
+    align-items: center;
+    bottom: -1%;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    position: fixed;
+    right: 3%;
+    z-index: 1;
+}
+
+.contact-details ul {
+    list-style: none;
+    /* padding-left: 10px; */
+}
+
+.contact-details ul li a img  {
+    position: relative;
+    display: block;
+    left: -.5em;
+    bottom: 10em;
+    width: 20px;
+    height: 20px;
+}
+
+.contact-details ul li  {
+    background-color: rgba(193,203,243,.922);
+    border: none;
+    height: 30px;
+    width: 1px;
 }
