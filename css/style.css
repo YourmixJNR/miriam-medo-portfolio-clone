@@ -113,8 +113,11 @@ header .header-section nav a {
 
 /* Hero starts */
 
+.hero-section {
+    margin-bottom: 5em;
+}
+
 .hero-box {
-    min-height: 80vh;
     margin-top: 5em;
     margin-left: 5em;
 }
@@ -141,8 +144,7 @@ header .header-section nav a {
 /* Skills starts */
 
 .skills-section {
-    display: block;
-    min-height: 0vh;
+    margin-bottom: 8em;
 }
 
 .skills-list {
@@ -216,6 +218,10 @@ header .header-section nav a {
 
 /* Workplace starts */
 
+.workplace-section {
+    margin-bottom: 5em;
+}
+
 .workplace-container {
     margin: auto;
     width: 70%;
@@ -281,13 +287,6 @@ header .header-section nav a {
 
 /* Project starts */
 
-.project-section {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    min-height: 0vh;
-}
-
 .project-container  {
     align-items: center;
     display: flex;
@@ -349,8 +348,8 @@ header .header-section nav a {
 
 /* Contact starts */
 
-.contact-container {
-    min-height: 40vh;
+.contact-section {
+    margin-bottom: 2em;
 }
 
 .contact-txt h1 {
