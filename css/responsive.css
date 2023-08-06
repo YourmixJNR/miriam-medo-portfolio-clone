@@ -110,4 +110,9 @@
         font-size: 20px
     }
 
+    .contact-txt h1 {
+        font-size: 2.5rem;
+        margin: 1px 0;
+    }
+
 }
