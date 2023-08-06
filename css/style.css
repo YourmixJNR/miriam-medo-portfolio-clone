@@ -30,6 +30,44 @@ main {
 
 /* Reuseable components */
 
+section {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0em 4em;
+}
+
+.grad-txt {
+    margin-right: 0.3em;
+    font-weight: 800;
+    background-clip: text;
+    background-image: linear-gradient(90deg,orange,green,#0593ff,violet);
+    color: transparent;
+}
+
+.grad-heading {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+.grad-heading span {
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.grad-heading h2 {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.grad-heading hr {
+    height: 1px;
+    width: 300px;
+    background-color: #5a5a5a;
+    border: none;
+}
 
 /* Header starts */
 
@@ -63,14 +101,6 @@ header .header-section nav a {
     text-decoration: none;
 }
 
-header .header-section .navbar a .color-no {
-    margin-right: 0.3em;
-    font-weight: 800;
-    background-clip: text;
-    background-image: linear-gradient(90deg,orange,green,#0593ff,violet);
-    color: transparent;
-}
-
 header .header-section .resume-btn {
     position: relative;
     min-width: 110px;
@@ -83,4 +113,94 @@ header .header-section .resume-btn {
     border-image-source: linear-gradient(90deg,orange,green,#0593ff,violet);
     transition: all .5s ease-in-out;
     color: var(--Aquamarine-light);
+}
+
+/* Hero starts */
+
+.hero-section {
+    position: relative;
+    width: 100%;
+}
+
+.hero-box {
+    margin-left: 5em;
+}
+
+.hero-box h1, .hero-box h2 {
+    font-size: 4rem;
+    margin: 1px 0;
+}
+
+.hero-box p {
+    font-weight: 500;
+    line-height: 2;
+    width: 60%;
+}
+
+.hero-box hr {
+    background-color: #5a5a5a;
+    border: none;
+    height: 1px;
+    margin: 1.8em 0;
+    width: 280px;
+}
+
+/* Skills starts */
+
+.skills-section {
+    min-height: 0vh;
+}
+
+.skills-list-box .box-head {
+    display: flex;
+    padding: 10px 1em;
+    align-items: center;
+    border-bottom: 1px solid rgba(78,78,78,.358);
+}
+
+.box-head .box-indicator {
+    text-align: left;
+    width: 53px;
+}
+
+.box-head .box-indicator span {
+    border-radius: 50%;
+    display: inline-block;
+    height: 12px;
+    margin: 3px;
+    margin-left: 3px;
+    width: 12px;
+}
+
+.box-head .box-indicator span:first-child {
+    background-color: #fb4646;
+    margin-left: 0;
+}
+
+.box-head .box-indicator span:nth-child(2) {
+    background-color: #fcb024;
+}
+
+.box-head .box-indicator span:nth-child(3) {
+    background-color: #29c233;
+}
+
+.box-head h5 {
+    margin: 0;
+}
+
+.skills-list-box .box-contents {
+    padding: 1em;
+    text-align: left;
+}
+
+.box-contents .box-content-list {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.box-contents span {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
 }
