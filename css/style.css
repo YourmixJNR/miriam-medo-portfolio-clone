@@ -148,28 +148,44 @@ header .header-section .resume-btn {
 /* Skills starts */
 
 .skills-section {
+    display: block;
     min-height: 0vh;
+}
+
+.skills-list {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    flex: 1 1 30rem;
+}
+
+.skills-list .skills-list-box {
+    background-color: #0f1930;
+    border: 1px solid rgba(78,78,78,.358);
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 2px #000;
+    height: 310px;
+    margin: 1em;
+    transition-duration: .3s;
+    transition-timing-function: ease-in;
+    width: 350px;
 }
 
 .skills-list-box .box-head {
     display: flex;
     padding: 10px 1em;
-    align-items: center;
+    gap: 10px;
     border-bottom: 1px solid rgba(78,78,78,.358);
 }
 
-.box-head .box-indicator {
-    text-align: left;
-    width: 53px;
-}
-
 .box-head .box-indicator span {
-    border-radius: 50%;
     display: inline-block;
-    height: 12px;
-    margin: 3px;
-    margin-left: 3px;
     width: 12px;
+    height: 12px;
+    text-align: left;
+    border-radius: 50%;
 }
 
 .box-head .box-indicator span:first-child {
