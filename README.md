@@ -1,1 +1,1 @@
-README 
+The Miriam Medo Portfolio Clone project involves recreating the portfolio website of Miriam Medo [https://miriam-medo.web.app/], a talented individual in our field. The objective is to study and replicate the design, layout, and overall aesthetics of Miriam Medo's portfolio for educational purposes.
